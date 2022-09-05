@@ -1,0 +1,42 @@
+.inputform1 {
+	border-width: 3px;
+	border-color: #007bff;
+	border-radius: 5px;
+	width: 100%;
+	height: 35px;
+	text-align-last:center;
+}
+#tableoutput{
+	width: 100%;
+	border-bottom: 1px solid;
+}
+#judul {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	margin-bottom: 20px;
+	color: #007bff;
+}
+#judulform1{
+	font-size: 25px;
+	color: #007bff;
+}
+#tombolcek{
+	background-color: #007bff;
+	color: #fdfdfd;
+	width: 200px;
+	height: 35px;
+	border-radius: 5px;
+	font-weight: bold;
+	border-color: #007bff;
+}
+#tombolreset{
+	font-weight: bold;
+	background-color: #fdfdfd;
+	color: #007bff;
+	width: 100px;
+	height: 35px;
+	border-radius: 5px;
+	border-color: #007bff;
+}
