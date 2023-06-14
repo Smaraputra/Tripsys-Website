@@ -1,7 +1,7 @@
 <?php
     $dbhost = "localhost";
-	$dbuser = "id15766723_tripsys";
-	$dbpass = "SusahBangetBuat_300";
+	$dbuser = "root";
+	$dbpass = "";
 	$db = "id15766723_sistemtripsys";
 	$conn = new mysqli($dbhost, $dbuser, $dbpass, $db);
 	$conn1 = new mysqli($dbhost, $dbuser, $dbpass, $db);
