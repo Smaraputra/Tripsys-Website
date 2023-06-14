@@ -2,7 +2,7 @@
     $dbhost = "localhost";
 	$dbuser = "root";
 	$dbpass = "";
-	$db = "id15766723_sistemtripsys";
+	$db = "wisatasys";
 	$conn = new mysqli($dbhost, $dbuser, $dbpass, $db);
 	$conn1 = new mysqli($dbhost, $dbuser, $dbpass, $db);
 	$conn2 = new mysqli($dbhost, $dbuser, $dbpass, $db);

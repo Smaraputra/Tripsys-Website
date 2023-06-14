@@ -19,7 +19,7 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
 		<script type="text/javascript" src="formskrip.js"></script>
-		<title>Tripsys | Go Get The Trip You Want</title>
+		<title>WisataSyS | Go Get The Trip You Want</title>
 		<style>
 		#gantipropil{
 			margin-top: 10px;
@@ -36,7 +36,7 @@
 		<header>
 			<div class="container">
 				<nav class="navbar navbar-expand-lg navbar-primary bg-light">
-					<a class="navbar-brand" href="#"><b>Tripsys | </b> The Trip You Want</a>
+					<a class="navbar-brand" href="#"><b>WisataSyS | </b> The Trip You Want</a>
 					<div class="collapse navbar-collapse">
 						<ul class="navbar-nav mr-auto">
 							<li class="nav-item active">
@@ -105,7 +105,7 @@
 			
 		<div class="jumbotron bg-primary text-white mb-4 mt-2">
 			<div class="container">
-				<h1><b>Tripsys | Profil</b></h1>
+				<h1><b>WisataSyS | Profil</b></h1>
 				<p class="lead"><b>Sesuaikan profil diri anda didalam aplikasi.</b></p>
 			</div>
 		</div>
@@ -196,7 +196,7 @@
 		</script>
 		<footer class="bg-primary">
 			<div class="fix-bottom text-white text-center pt-3 pb-3">
-				<span><b>Copyright @2020 - Tripsys | Project RPL</b></span>
+				<span><b>Copyright @2020 - WisataSyS | Project RPL</b></span>
 			</div>
 		</footer>
 	</body>

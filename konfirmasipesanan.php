@@ -106,13 +106,13 @@
 			border: 0px;
 		}
 		</style>
-		<title>Tripsys | Go Get The Trip You Want</title>
+		<title>WisataSyS | Go Get The Trip You Want</title>
 	</head>
 	<body>
 		<header>
 			<div class="container">
 				<nav class="navbar navbar-expand-lg navbar-primary bg-light">
-					<a class="navbar-brand" href="#"><b>Tripsys | </b> The Trip You Want</a>
+					<a class="navbar-brand" href="#"><b>WisataSyS | </b> The Trip You Want</a>
 					<div class="collapse navbar-collapse">
 						<ul class="navbar-nav mr-auto">
 							<li class="nav-item active">
@@ -181,7 +181,7 @@
 			
 		<div class="jumbotron bg-primary text-white mb-4 mt-2">
 			<div class="container">
-				<h1><b>Tripsys | Panel Konfirmasi Pesanan</b></h1>
+				<h1><b>WisataSyS | Panel Konfirmasi Pesanan</b></h1>
 				<p class="lead"><b>Konfirmasi kostumisasi paket wisata sesuai yang sudah anda buat.</b></p>
 				<a class="text-white" href="index.php"><b><-- Kembali</b></a>
 			</div>
@@ -313,7 +313,7 @@
 
 		<footer class="bg-primary">
 			<div class="fix-bottom text-white text-center pt-3 pb-3">
-				<span><b>Copyright @2020 - Tripsys | Project RPL</b></span>
+				<span><b>Copyright @2020 - WisataSyS | Project RPL</b></span>
 			</div>
 		</footer>
 	</body>
