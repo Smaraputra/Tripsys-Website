@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.5
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Dec 29, 2020 at 04:37 AM
--- Server version: 10.3.16-MariaDB
--- PHP Version: 7.3.23
+-- Generation Time: Jun 14, 2023 at 04:41 PM
+-- Server version: 10.4.24-MariaDB-log
+-- PHP Version: 7.2.32
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -26,8 +25,7 @@ DELIMITER $$
 --
 -- Procedures
 --
-CREATE DEFINER=`id15766723_tripsys`@`%` PROCEDURE `login` (IN `tipelogin` INT(255), IN `email` VARCHAR(255), IN `inpassword` VARCHAR(255))  NO SQL
-BEGIN
+CREATE DEFINER=`root`@`localhost` PROCEDURE `login` (IN `tipelogin` INT(255), IN `email` VARCHAR(255), IN `inpassword` VARCHAR(255))   BEGIN
 	DECLARE nama VARCHAR(255);
 	DECLARE id INT;
 	DECLARE jabatan VARCHAR(255);
@@ -69,8 +67,7 @@ BEGIN
 	SELECT id, nama, jabatan, status_login;
 END$$
 
-CREATE DEFINER=`id15766723_tripsys`@`%` PROCEDURE `signup` (IN `nama` VARCHAR(255), IN `alamat` VARCHAR(255), IN `telpon` VARCHAR(255), IN `travel` INT(11), IN `email` VARCHAR(255), IN `inpassword` VARCHAR(255), IN `tipeakun` VARCHAR(255))  NO SQL
-BEGIN
+CREATE DEFINER=`root`@`localhost` PROCEDURE `signup` (IN `nama` VARCHAR(255), IN `alamat` VARCHAR(255), IN `telpon` VARCHAR(255), IN `travel` INT(11), IN `email` VARCHAR(255), IN `inpassword` VARCHAR(255), IN `tipeakun` VARCHAR(255))  NO SQL BEGIN
 	DECLARE status_signup INT;
 	DECLARE cek_data INT;
 	
@@ -253,14 +250,14 @@ CREATE TABLE `nama_wisata` (
 --
 
 INSERT INTO `nama_wisata` (`id_nama_wisata`, `id_lokasi`, `nama`, `kode`, `gambar`, `deskripsi`) VALUES
-(1, 9, 'Wisata Tanah Lot', 'TL', 'https://cdn.rentalmobilbali.net/wp-content/uploads/2019/12/Sunset-Pura-Tanah-Lot-Bali.jpg', 'Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata.'),
+(1, 9, 'Wisata Tanah Lot', 'TL', 'https://theworldtravelguy.com/wp-content/uploads/2020/11/DJI_0950.jpg', 'Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata.'),
 (2, 1, 'Wisata Bedugul', 'BL', 'https://th.bing.com/th/id/OIP.OOzjlxOpw-n-P4ns9f0ETQHaFj?pid=Api&w=1600&h=1200&rs=1', 'Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata.'),
 (3, 3, 'Wisata Pantai Sanur', 'PS', 'https://i.pinimg.com/736x/f4/cc/34/f4cc343b669af913ac5f064e462aa00f--hotel-stay-roatan.jpg', 'Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata.'),
 (4, 5, 'Wisata Pura Besakih', 'PB', 'http://fs.genpi.co/uploads/news/2019/01/03/5071c53e9de658bc02782a8932661d08.jpg', 'Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata.'),
 (5, 2, 'Wisata Pura Taman Mumbul', 'PTM', 'https://raskitatour.com/wp-content/uploads/2018/12/59.-Taman-Mumbul.jpg', 'Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata.'),
 (6, 2, 'Wisata GWK', 'GWK', 'https://asset.kompas.com/data/todaysphoto/foto/73f614858444241bddf143/p_1538011931600-gwk-bali.jpg', 'Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata.'),
 (7, 2, 'Wisata Pantai Kuta', 'PK', 'https://th.bing.com/th/id/OIP.LlsGCSqKGdkgqv4LhQVlEwHaE8?pid=Api&rs=1', 'Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata.'),
-(8, 2, 'Wisata Pura Luhur Uluwatu', 'PLU', 'https://jejakpiknik.com/wp-content/uploads/2017/11/@tripadeal.jpg', 'Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata.');
+(8, 2, 'Wisata Pura Luhur Uluwatu', 'PLU', 'https://balicheapesttours.com/dummy/uluwatu-temple-9.jpg', 'Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata. Ini adalah kalimat penjelas wisata.');
 
 -- --------------------------------------------------------
 
